@@ -106,11 +106,11 @@ const DAYS = [
    {h:"Midday", items:[
     {n:"Talea Beer Co.", t:"12:00", tag:"booked", d:"87 Richardson St, Williamsburg", q:"Talea Beer Co, 87 Richardson Street, Brooklyn, NY 11211"}
    ]},
-   {h:"Afternoon · Williamsburg", items:[
+   {h:"Afternoon · Williamsburg (keep it to two shops)", items:[
     {n:"Tangerine", d:"Art-school, cool-girl independent labels. 5 min from Talea.", q:"Tangerine, 616 Lorimer Street, Brooklyn"},
     {n:"Maimoun", d:"Young independent designers, closest to your taste", q:"Maimoun, 111 Grand Street, Brooklyn"},
-    {n:"Marmalade", d:"Independent boutique, more accessible prices", q:"Marmalade, 285 Grand Street, Brooklyn"},
-    {n:"Vintage on Grand St and Bedford Ave", tag:"🛍 sweatshirt", d:"Best fashion find: a vintage NYC sweatshirt or T-shirt.", q:"Bedford Avenue, Williamsburg, Brooklyn"}
+    {n:"Marmalade", tag:"optional", d:"285 Grand St. Independent boutique, more accessible prices. Only if you have time.", q:"Marmalade, 285 Grand Street, Brooklyn"},
+    {n:"Any vintage shop you pass", tag:"🛍 sweatshirt", d:"Best fashion find: a vintage NYC sweatshirt or T-shirt. Grand St and Bedford Ave have plenty.", q:"Bedford Avenue, Williamsburg, Brooklyn"}
    ]},
    {h:"Late afternoon · DUMBO", items:[
     {n:"NYC Ferry to DUMBO", t:"~15:00", d:"East River route. Buy in the NYC Ferry app or at the pier.", q:"NYC Ferry North Williamsburg"},
@@ -119,15 +119,18 @@ const DAYS = [
    ]},
    {h:"Sunset and evening", items:[
     {n:"Walk the Brooklyn Bridge into Manhattan", t:"~16:00", d:"30–40 min", q:"Brooklyn Bridge pedestrian entrance, Washington Street, Brooklyn"},
-    {n:"9/11 Memorial", tag:"optional", q:"9/11 Memorial, New York"},
-    {n:"Century 21", tag:"optional", d:"Discount designer fashion. Worth checking for Calvin Klein underwear too.", q:"Century 21, 22 Cortlandt Street, New York"},
-    {n:"NYC Ferry home from Pier 11", d:"Astoria route, under the bridges. Lit-up skyline.", q:"Pier 11 Wall Street, New York"}
+    {n:"NYC Ferry home from Pier 11", d:"About 15 min walk from the end of the bridge. Astoria route, under the bridges, lit-up skyline.", q:"Pier 11 Wall Street, New York"}
    ]}
   ]},
- {id:"d8", date:"2026-11-08", tab:"Sun 8", title:"Central Park and the Met", sub:"N/W to 5 Av/59 St",
-  tip:"Buy Met tickets online the day before to skip the desk queue.",
+ {id:"d8", date:"2026-11-08", tab:"Sun 8", title:"Century 21, Central Park and the Met", sub:"Downtown first, then one direct ride up to the park",
+  tip:"Buy Met tickets online the day before to skip the desk queue. Check Century 21's Sunday opening time and aim to arrive soon after it opens. Use Google Maps for the subway, as weekend service often changes.",
   sections:[
-   {h:"Morning", items:[
+   {h:"Morning · Downtown", items:[
+    {n:"Century 21", t:"~11:00", tag:"🛍", d:"22 Cortlandt St. Discount designer fashion; also look for Calvin Klein underwear. Give it about an hour.", q:"Century 21, 22 Cortlandt Street, New York"},
+    {n:"9/11 Memorial plaza", tag:"optional", d:"Right next door. Free, 15–20 min for the pools.", q:"9/11 Memorial, New York"},
+    {n:"R train from Cortlandt St to 5 Av/59 St", d:"Direct, about 20–25 min"}
+   ]},
+   {h:"Midday · Central Park", items:[
     {n:"Central Park: the Mall", q:"The Mall, Central Park"},
     {n:"Bethesda Terrace", q:"Bethesda Terrace, Central Park"}
    ]},
@@ -215,7 +218,7 @@ const INFO = `
  <li><b>Best fashion find:</b> vintage NYC sweatshirt or T-shirt · Williamsburg vintage shops (Sat), or DUO NYC (Mon)</li>
  <li><b>Best gift:</b> MoMA design object · MoMA Design Store, 44 W 53rd St (Tue)</li>
  <li><b>Sephora:</b> Fifth Avenue flagship, 580 Fifth Ave (Tue). Times Square also has a very large one at 1535 Broadway if you're there in the evening.</li>
- <li><b>Calvin Klein underwear:</b> CK flagship, 530 Broadway, SoHo (Mon). Century 21 sometimes has it cheaper (Sat).</li></ul></div>
+ <li><b>Calvin Klein underwear:</b> CK flagship, 530 Broadway, SoHo (Mon). Century 21 sometimes has it cheaper (Sun).</li></ul></div>
 <div class="card"><h4>🎟 What to book</h4><ul>
  <li><b>MoMA</b> (Tue): online a day or two before</li>
  <li><b>The Met</b> (Sun): online the day before, no timed slot needed</li>
