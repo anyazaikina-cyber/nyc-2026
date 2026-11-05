@@ -122,10 +122,11 @@ const DAYS = [
     {n:"NYC Ferry home from Pier 11", d:"About 15 min walk from the end of the bridge. Astoria route, under the bridges, lit-up skyline.", q:"Pier 11 Wall Street, New York"}
    ]}
   ]},
- {id:"d8", date:"2026-11-08", tab:"Sun 8", title:"Century 21, Central Park and the Met", sub:"Downtown first, then one direct ride up to the park",
+ {id:"d8", date:"2026-11-08", tab:"Sun 8", title:"Century 21, the Met and jazz", sub:"Downtown first, the park and the Met, then the West Village in the evening",
   tip:"Buy Met tickets online the day before to skip the desk queue. Check Century 21's Sunday opening time and aim to arrive soon after it opens. Use Google Maps for the subway, as weekend service often changes.",
   sections:[
    {h:"Morning · Downtown", items:[
+    {n:"Apollo Bagels", tag:"🍴 food stop", d:"41 John St, 5 min from Century 21. Breakfast before shopping.", q:"Apollo Bagels, 41 John Street, New York"},
     {n:"Century 21", t:"~11:00", tag:"🛍", d:"22 Cortlandt St. Discount designer fashion; also look for Calvin Klein underwear. Give it about an hour.", q:"Century 21, 22 Cortlandt Street, New York"},
     {n:"9/11 Memorial plaza", tag:"optional", d:"Right next door. Free, 15–20 min for the pools.", q:"9/11 Memorial, New York"},
     {n:"R train from Cortlandt St to 5 Av/59 St", d:"Direct, about 20–25 min"}
@@ -136,6 +137,11 @@ const DAYS = [
    ]},
    {h:"Afternoon", items:[
     {n:"The Met", d:"Leave the park at 82nd St. Pick two or three wings.", q:"The Metropolitan Museum of Art"}
+   ]},
+   {h:"Evening · West Village", items:[
+    {n:"Subway or Uber down to the West Village", d:"About 25–30 min from the Met"},
+    {n:"L'Industrie Pizzeria", tag:"🍴 food stop", d:"104 Christopher St. Get the margherita or burrata slice, and the gelato.", q:"L'Industrie Pizzeria, 104 Christopher Street, New York"},
+    {n:"Arthur's Tavern", tag:"⭐ must-go", d:"57 Grove St, 3 min away. Live jazz every night, no cover. Sundays: Creole Cookin' Jazz Band.", q:"Arthur's Tavern, 57 Grove Street, New York"}
    ]}
   ]},
  {id:"d9", date:"2026-11-09", tab:"Mon 9", title:"West Village, then shopping east", sub:"N/W to 8 St–NYU, then walk west",
@@ -146,7 +152,7 @@ const DAYS = [
     {n:"Magnolia Bakery", d:"The Sex and the City cupcake stop", q:"Magnolia Bakery, 401 Bleecker Street, New York"},
     {n:"Carrie's stoop", d:"66 Perry St. Photos from the pavement only.", q:"66 Perry Street, New York"},
     {n:"The Friends building", d:"Bedford St & Grove St, exterior only", q:"90 Bedford Street, New York"},
-    {n:"Lunch in the Village"}
+    {n:"Joe's Pizza", tag:"❗ don't miss", d:"7 Carmine St, the original. A classic NYC slice for lunch, 5 min from the Friends building.", q:"Joe's Pizza, 7 Carmine Street, New York"}
    ]},
    {h:"SoHo · Broome St", items:[
     {n:"Flying Solo", d:"Rotating independent designers", q:"Flying Solo, 419 Broome Street, New York"},
@@ -163,7 +169,8 @@ const DAYS = [
     {n:"Sandy Liang", d:"Playful, girlish New York label", q:"Sandy Liang store, Orchard Street, New York"},
     {n:"ESSX NYC", d:"Darker, fashion-forward. Head for the sale racks.", q:"ESSX NYC, 140 Essex Street, New York"},
     {n:"Assembly New York", d:"Baserange, Collina Strada, Sandy Liang and more", q:"Assembly New York, 170 Ludlow Street, New York"},
-    {n:"DUO NYC", tag:"optional", d:"East Village, 15 min north. Vintage and minimal.", q:"DUO NYC, 324 East 9th Street, New York"}
+    {n:"DUO NYC", tag:"optional", d:"East Village, 15 min north. Vintage and minimal.", q:"DUO NYC, 324 East 9th Street, New York"},
+    {n:"Katz's Delicatessen", tag:"❗ don't miss", d:"205 E Houston St, a few minutes from the Ludlow St shops. Early dinner: the pastrami sandwich is big enough to share.", q:"Katz's Delicatessen, 205 East Houston Street, New York"}
    ]}
   ]},
  {id:"d10b", date:"2026-11-10", tab:"Tue 10", title:"Midtown classics and MoMA", sub:"N/W to Times Sq–42 St. Everything is within a 15-minute walk.",
@@ -178,11 +185,11 @@ const DAYS = [
     {n:"Sephora Fifth Avenue", tag:"🛍 beauty", d:"580 Fifth Ave at 47th St, Sephora's big NYC flagship. On your way up Fifth.", q:"Sephora, 580 Fifth Avenue, New York, NY 10036"},
     {n:"Fifth Avenue to St Patrick's Cathedral", q:"St. Patrick's Cathedral, New York"},
     {n:"Rockefeller Center", d:"The Christmas tree will be up, though not lit yet.", q:"Rockefeller Center"},
-    {n:"MoMA", tag:"book online", d:"11 W 53rd St, 2 min from Rockefeller Center. About 2 hours: focus on the 5th floor (Van Gogh, Monet, Picasso, Warhol).", q:"Museum of Modern Art, 11 West 53rd Street, New York"},
-    {n:"MoMA Design Store", tag:"🛍 gift", d:"Best gift: a MoMA design object. Across the street from the museum.", q:"MoMA Design Store, 44 West 53rd Street, New York"}
+    {n:"MoMA", tag:"book online", d:"11 W 53rd St, 2 min from Rockefeller Center. About 2 hours: focus on the 5th floor (Van Gogh, Monet, Picasso, Warhol).", q:"Museum of Modern Art, 11 West 53rd Street, New York"}
    ]},
    {h:"Evening", items:[
     {n:"Yankees Clubhouse", tag:"🛍 cap", d:"Most iconic: a Yankees cap. 745 Seventh Ave, on the way to Times Square.", q:"Yankees Clubhouse, 745 7th Avenue, New York, NY 10019"},
+    {n:"Los Tacos No. 1", tag:"⭐ must-go", d:"229 W 43rd St, off Times Square. Quick dinner, standing only.", q:"Los Tacos No. 1, 229 West 43rd Street, New York"},
     {n:"Central Perk coffeehouse", d:"Orange sofa, walk-in", q:"Central Perk Coffeehouse, 20 Times Square, New York"},
     {n:"Times Square after dark", q:"Times Square"}
    ]}
@@ -213,10 +220,13 @@ const INFO = `
  <p><b>Policy no.</b> LV26-CN-00062492-9</p>
  <p>If you're unwell, BTA can arrange a video or phone consultation with a Latvian doctor on the same number. Ring them before going to a US clinic if you can, because they can point you somewhere they work with.</p></div>
 <section><h3>Before you fly</h3><div id="prelist"></div></section>
+<div class="card"><h4>🍴 Food priorities</h4><ul>
+ <li><b>Don't miss:</b> Katz's Delicatessen (Mon dinner, LES) · Joe's Pizza (Mon lunch, West Village)</li>
+ <li><b>Definitely go:</b> Arthur's Tavern (Sun evening, jazz) · Los Tacos No. 1 (Tue dinner, Times Square)</li>
+ <li><b>Great food stops:</b> L'Industrie (Sun evening, West Village) · Apollo Bagels (Sun breakfast, downtown)</li></ul></div>
 <div class="card"><h4>🛍 Shopping list</h4><ul>
  <li><b>Most iconic:</b> Yankees cap · Yankees Clubhouse, 745 Seventh Ave (Tue evening)</li>
  <li><b>Best fashion find:</b> vintage NYC sweatshirt or T-shirt · Williamsburg vintage shops (Sat), or DUO NYC (Mon)</li>
- <li><b>Best gift:</b> MoMA design object · MoMA Design Store, 44 W 53rd St (Tue)</li>
  <li><b>Sephora:</b> Fifth Avenue flagship, 580 Fifth Ave (Tue). Times Square also has a very large one at 1535 Broadway if you're there in the evening.</li>
  <li><b>Calvin Klein underwear:</b> CK flagship, 530 Broadway, SoHo (Mon). Century 21 sometimes has it cheaper (Sun).</li></ul></div>
 <div class="card"><h4>🎟 What to book</h4><ul>
