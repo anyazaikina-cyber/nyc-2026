@@ -109,11 +109,12 @@ const DAYS = [
    {h:"Midday", items:[
     {n:"Talea Beer Co.", t:"12:00", tag:"booked", d:"87 Richardson St, Williamsburg", q:"Talea Beer Co, 87 Richardson Street, Brooklyn, NY 11211"}
    ]},
-   {h:"Afternoon · Williamsburg (keep it to two shops)", items:[
-    {n:"Tangerine", d:"Art-school, cool-girl independent labels. 5 min from Talea.", q:"Tangerine, 616 Lorimer Street, Brooklyn"},
-    {n:"Maimoun", d:"Young independent designers, closest to your taste", q:"Maimoun, 111 Grand Street, Brooklyn"},
-    {n:"Marmalade", tag:"optional", d:"285 Grand St. Independent boutique, more accessible prices. Only if you have time.", q:"Marmalade, 285 Grand Street, Brooklyn"},
-    {n:"Any vintage shop you pass", tag:"🛍 sweatshirt", d:"Best fashion find: a vintage NYC sweatshirt or T-shirt. Grand St and Bedford Ave have plenty.", q:"Bedford Avenue, Williamsburg, Brooklyn"}
+   {h:"Afternoon · Williamsburg vintage (pick three or four)", items:[
+    {n:"L Train Vintage", tag:"💲 cheapest", d:"629 Grand St, about 10 min from Talea. Most pieces $6–25. Good for your NYC sweatshirt.", q:"L Train Vintage, 629 Grand Street, Brooklyn"},
+    {n:"Awoke Vintage", d:"132 N 5th St. Curated vintage and denim, most clothing $20–55.", q:"Awoke Vintage, 132 North 5th Street, Brooklyn"},
+    {n:"10 ft Single by Stella Dallas", tag:"optional", d:"285 N 6th St. Big vintage store, e.g. 1970s blouses $15–25.", q:"10 ft Single by Stella Dallas, 285 North 6th Street, Brooklyn"},
+    {n:"Artists & Fleas", tag:"weekends only", d:"70 N 7th St. Indoor market with 50+ sellers: vintage, jewellery, art. Open Fri–Sun 11:00–19:00.", q:"Artists & Fleas, 70 North 7th Street, Brooklyn"},
+    {n:"Buffalo Exchange and Monk Vintage", d:"504 and 496 Driggs Ave, side by side. Resale and vintage, most clothing $15–60.", q:"Buffalo Exchange, 504 Driggs Avenue, Brooklyn"}
    ]},
    {h:"Late afternoon · DUMBO", items:[
     {n:"NYC Ferry to DUMBO", t:"~15:00", d:"East River route. Buy in the NYC Ferry app or at the pier.", q:"NYC Ferry North Williamsburg"},
@@ -125,7 +126,7 @@ const DAYS = [
     {n:"NYC Ferry home from Pier 11", d:"About 15 min walk from the end of the bridge. Astoria route, under the bridges, lit-up skyline.", q:"Pier 11 Wall Street, New York"}
    ]}
   ]},
- {id:"d8", date:"2026-11-08", tab:"Sun 8", title:"Statue of Liberty, the Met and jazz", sub:"Ferry and Century 21 downtown, the park and the Met, then the West Village",
+ {id:"d8", date:"2026-11-08", tab:"Sun 8", title:"Statue of Liberty, Century 21 and the Met", sub:"Ferry and Century 21 downtown, then the park and the Met. Quiet evening.",
   tip:"Earlier start today: leave the hotel by about 9:00. On the Staten Island Ferry, stand on the right-hand side going out for the best Statue of Liberty view. You have to get off at St George and walk round to board the next boat back. Buy Met tickets online the day before. Check Century 21's Sunday opening time. Use Google Maps for the subway, as weekend service often changes.",
   sections:[
    {h:"Morning · Downtown", items:[
@@ -142,39 +143,36 @@ const DAYS = [
    {h:"Afternoon", items:[
     {n:"The Met", d:"Leave the park at 82nd St. Pick two or three wings.", q:"The Metropolitan Museum of Art"}
    ]},
-   {h:"Evening · West Village", items:[
-    {n:"Subway or Uber down to the West Village", d:"About 25–30 min from the Met"},
-    {n:"L'Industrie Pizzeria", tag:"🍴 food stop", d:"104 Christopher St. Get the margherita or burrata slice, and the gelato.", q:"L'Industrie Pizzeria, 104 Christopher Street, New York"},
-    {n:"Arthur's Tavern", tag:"⭐ must-go", d:"57 Grove St, 3 min away. Live jazz every night, no cover. Sundays: Creole Cookin' Jazz Band.", q:"Arthur's Tavern, 57 Grove Street, New York"}
+   {h:"Evening · take it easy", items:[
+    {n:"Quiet dinner back in Astoria", d:"Head home after the Met and rest up for Monday"},
+    {n:"L'Industrie Pizzeria", tag:"optional", d:"104 Christopher St, West Village, about 25–30 min from the Met. Only if you still have energy: margherita or burrata slice, plus the gelato.", q:"L'Industrie Pizzeria, 104 Christopher Street, New York"}
    ]}
   ]},
- {id:"d9", date:"2026-11-09", tab:"Mon 9", title:"West Village, then shopping east", sub:"N/W to 8 St–NYU, then walk west",
-  tip:"Shops are in walking order, about 30 min end to end. Pick four or five. ROOME is the top pick.",
+ {id:"d9", date:"2026-11-09", tab:"Mon 9", title:"West Village, SoHo and the Lower East Side", sub:"N/W to 8 St–NYU, then walk west",
+  tip:"Same walk east as before, SoHo → Nolita → Lower East Side → East Village, but with affordable vintage and basics instead of designer boutiques. Katz's is your dinner stop along the way.",
   sections:[
    {h:"Morning · West Village", items:[
     {n:"Washington Square Park", q:"Washington Square Park"},
-    {n:"Magnolia Bakery", d:"The Sex and the City cupcake stop", q:"Magnolia Bakery, 401 Bleecker Street, New York"},
     {n:"Carrie's stoop", d:"66 Perry St. Photos from the pavement only.", q:"66 Perry Street, New York"},
     {n:"The Friends building", d:"Bedford St & Grove St, exterior only", q:"90 Bedford Street, New York"},
     {n:"Joe's Pizza", tag:"❗ don't miss", d:"7 Carmine St, the original. A classic NYC slice for lunch, 5 min from the Friends building.", q:"Joe's Pizza, 7 Carmine Street, New York"}
    ]},
-   {h:"SoHo · Broome St", items:[
-    {n:"Flying Solo", d:"Rotating independent designers", q:"Flying Solo, 419 Broome Street, New York"},
-    {n:"3NY", d:"Eclectic concept store", q:"3NY, 448 Broome Street, New York"},
+   {h:"SoHo · Broadway", items:[
+    {n:"The ReShop", tag:"💲 affordable", d:"423 Broadway. Vintage and thrift: Levi's around $40, band tees around $17.", q:"The ReShop, 423 Broadway, New York"},
     {n:"Calvin Klein flagship", tag:"🛍 underwear", d:"530 Broadway at Spring St. Opened Dec 2025, with denim and underwear at its centre.", q:"Calvin Klein, 530 Broadway, New York, NY 10012"}
    ]},
    {h:"Nolita", items:[
-    {n:"Lingo", d:"Handmade, limited-edition pieces by emerging designers", q:"Lingo, 229 Mott Street, New York"},
+    {n:"Wander Mott St and Elizabeth St", d:"The prettiest streets in Nolita for window-shopping, between Houston and Kenmare", q:"Mott Street and Prince Street, New York"},
     {n:"McNally Jackson", d:"Independent bookshop, good for a break", q:"McNally Jackson, 52 Prince Street, New York"}
    ]},
-   {h:"Lower East Side", items:[
-    {n:"ROOME", tag:"top pick", d:"Emerging Korean and Asian designers, closest to Gimaguas", q:"ROOME, 324 Grand Street, New York"},
-    {n:"Café Forgot", d:"Emerging designers, some cheaper pieces", q:"Cafe Forgot, 29 Ludlow Street, New York"},
-    {n:"Sandy Liang", d:"Playful, girlish New York label", q:"Sandy Liang store, Orchard Street, New York"},
-    {n:"ESSX NYC", d:"Darker, fashion-forward. Head for the sale racks.", q:"ESSX NYC, 140 Essex Street, New York"},
-    {n:"Assembly New York", d:"Baserange, Collina Strada, Sandy Liang and more", q:"Assembly New York, 170 Ludlow Street, New York"},
-    {n:"DUO NYC", tag:"optional", d:"East Village, 15 min north. Vintage and minimal.", q:"DUO NYC, 324 East 9th Street, New York"},
-    {n:"Katz's Delicatessen", tag:"❗ don't miss", d:"205 E Houston St, a few minutes from the Ludlow St shops. Early dinner: the pastrami sandwich is big enough to share.", q:"Katz's Delicatessen, 205 East Houston Street, New York"}
+   {h:"Lower East Side and East Village", items:[
+    {n:"Café Forgot", d:"29 Ludlow St. Mostly designer, so head for its own-label pieces (tanks around $50) and accessories ($20–35).", q:"Cafe Forgot, 29 Ludlow Street, New York"},
+    {n:"Katz's Delicatessen", tag:"❗ don't miss", d:"205 E Houston St. Early dinner: the pastrami sandwich is big enough to share.", q:"Katz's Delicatessen, 205 East Houston Street, New York"},
+    {n:"DUO NYC", d:"324 E 9th St, about 10 min north of Katz's. Sister-owned vintage and thrift shop.", q:"DUO NYC, 324 East 9th Street, New York"},
+    {n:"AuH2O Thriftique", tag:"💲 cheapest", d:"84 E 7th St, round the corner from DUO. Clothing mostly $10–25, jewellery from $3. Small shop, so check it's open.", q:"AuH2O Thriftique, 84 East 7th Street, New York"}
+   ]},
+   {h:"Evening · jazz in the West Village", items:[
+    {n:"Arthur's Tavern", tag:"⭐ must-go", d:"57 Grove St, about 20 min from the East Village by subway or Uber. Live jazz every night, no cover. Mondays: the Grove Street Stompers.", q:"Arthur's Tavern, 57 Grove Street, New York"}
    ]}
   ]},
  {id:"d10b", date:"2026-11-10", tab:"Tue 10", title:"Midtown classics and MoMA", sub:"N/W to Times Sq–42 St. Everything is within a 15-minute walk.",
@@ -227,12 +225,12 @@ const INFO = `
 <section><h3>Before you fly</h3><div id="prelist"></div></section>
 <div class="card"><h4>🍴 Food priorities</h4><ul>
  <li><b>Don't miss:</b> Katz's Delicatessen (Mon dinner, LES) · Joe's Pizza (Mon lunch, West Village)</li>
- <li><b>Definitely go:</b> Arthur's Tavern (Sun evening, jazz) · Los Tacos No. 1 (Tue dinner, Times Square)</li>
- <li><b>Great food stops:</b> L'Industrie (Sun evening, West Village) · Apollo Bagels (Sun breakfast, downtown)</li>
+ <li><b>Definitely go:</b> Arthur's Tavern (Mon evening, jazz) · Los Tacos No. 1 (Tue dinner, Times Square)</li>
+ <li><b>Great food stops:</b> L'Industrie (Sun evening if you have energy, West Village) · Apollo Bagels (Sun breakfast, downtown)</li>
  <li><b>NYC essential:</b> a slice of New York cheesecake. Junior's on Times Square is the classic (Tue evening).</li></ul></div>
 <div class="card"><h4>🛍 Shopping list</h4><ul>
  <li><b>Most iconic:</b> Yankees cap · Yankees Clubhouse, 745 Seventh Ave (Tue evening)</li>
- <li><b>Best fashion find:</b> vintage NYC sweatshirt or T-shirt · Williamsburg vintage shops (Sat), or DUO NYC (Mon)</li>
+ <li><b>Best fashion find:</b> vintage NYC sweatshirt or T-shirt · L Train Vintage or Buffalo Exchange in Williamsburg (Sat), or DUO NYC (Mon)</li>
  <li><b>Sephora:</b> Fifth Avenue flagship, 580 Fifth Ave (Tue). Times Square also has a very large one at 1535 Broadway if you're there in the evening.</li>
  <li><b>Calvin Klein underwear:</b> CK flagship, 530 Broadway, SoHo (Mon). Century 21 sometimes has it cheaper (Sun).</li></ul></div>
 <div class="card"><h4>🎟 What to book</h4><ul>
