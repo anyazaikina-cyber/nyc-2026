@@ -99,14 +99,14 @@ const DAYS = [
     {n:"Uber/Lyft home", t:"~01:00", d:"Book from inside; yellow cabs are scarce at night. 20–30 min."}
    ]}
   ]},
- {id:"d7b", date:"2026-11-07", tab:"Sat 7", title:"Talea, Williamsburg and the Brooklyn Bridge", sub:"Early start: a riverside stroll in Williamsburg, then Talea at 12:00.",
-  tip:"Getting there: bus to Domino Park. Put \"Domino Park, Brooklyn\" into Google Maps and follow the bus route (probably via Queens Plaza and the B62). Get off near Grand St or Broadway and walk west to the river. Sunset is around 16:45, so aim to start the bridge walk at about 16:00. Also done today: Apollo Bagels, Century 21 and the 9/11 Memorial.",
+ {id:"d7b", date:"2026-11-07", tab:"Sat 7", title:"Talea, Williamsburg and the Brooklyn Bridge", sub:"As it went: Williamsburg and Talea, plus Apollo Bagels, Century 21 and the 9/11 Memorial. No ferries (moved to Sunday).",
+  tip:"Getting there: bus to Domino Park. Put \"Domino Park, Brooklyn\" into Google Maps and follow the bus route (probably via Queens Plaza and the B62). Get off near Grand St or Broadway and walk west to the river. Sunset is around 16:45, so aim to start the bridge walk at about 16:00.",
   sections:[
    {h:"Morning · Williamsburg", items:[
     {n:"Bus to Williamsburg", t:"~9:15", d:"Aim to reach Domino Park around 10:00"},
     {n:"Domino Park", t:"~10:00", d:"Kent Ave at S 3rd St. Old sugar refinery turned waterside park, with the Williamsburg Bridge overhead and the Manhattan skyline. Coffee kiosk usually in the park.", q:"Domino Park, Brooklyn"},
     {n:"Grand Ferry Park", d:"North along Kent Ave, at the end of Grand St. Small park right on the water.", q:"Grand Ferry Park, Brooklyn"},
-    {n:"North 5th St Pier", d:"Best photo stop. Your afternoon ferry leaves from here.", q:"North 5th Street Pier and Park, Brooklyn"},
+    {n:"North 5th St Pier", d:"Best photo stop on the river.", q:"North 5th Street Pier and Park, Brooklyn"},
     {n:"Marsha P. Johnson State Park", d:"N 7th–N 9th St on Kent Ave. Bench break by the water.", q:"Marsha P. Johnson State Park, Brooklyn"},
     {n:"Bedford Ave", tag:"if early", d:"One block inland around N 6th–N 8th St. Cafés for something warm before the market opens.", q:"Bedford Avenue and North 7th Street, Brooklyn"},
     {n:"Artists & Fleas", t:"11:00", tag:"weekends only", d:"70 N 7th St. Indoor market with 50+ sellers: vintage, jewellery, art. Opens at 11:00.", q:"Artists & Fleas, 70 North 7th Street, Brooklyn"},
@@ -115,86 +115,99 @@ const DAYS = [
    {h:"Midday", items:[
     {n:"Talea Beer Co.", t:"12:00", tag:"booked", d:"87 Richardson St, Williamsburg", q:"Talea Beer Co, 87 Richardson Street, Brooklyn, NY 11211"}
    ]},
-   {h:"Afternoon · vintage on the way to the ferry (pick two or three)", items:[
-    {n:"L Train Vintage", tag:"💲 cheapest", d:"629 Grand St, about 10 min from Talea. Most pieces $6–25. Good for your NYC sweatshirt.", q:"L Train Vintage, 629 Grand Street, Brooklyn"},
+   {h:"Afternoon · Williamsburg vintage", items:[
     {n:"Awoke Vintage", d:"132 N 5th St. Curated vintage and denim, most clothing $20–55.", q:"Awoke Vintage, 132 North 5th Street, Brooklyn"},
-    {n:"10 ft Single by Stella Dallas", tag:"optional", d:"285 N 6th St. Big vintage store, e.g. 1970s blouses $15–25.", q:"10 ft Single by Stella Dallas, 285 North 6th Street, Brooklyn"},
     {n:"Buffalo Exchange and Monk Vintage", d:"504 and 496 Driggs Ave, side by side. Resale and vintage, most clothing $15–60.", q:"Buffalo Exchange, 504 Driggs Avenue, Brooklyn"}
    ]},
    {h:"Late afternoon · DUMBO", items:[
-    {n:"NYC Ferry to DUMBO", t:"~15:00", d:"East River route. Buy in the NYC Ferry app or at the pier.", q:"NYC Ferry North Williamsburg"},
     {n:"Manhattan Bridge view", d:"Washington St", q:"Washington Street and Water Street, Brooklyn"},
     {n:"Brooklyn Bridge Park", q:"Brooklyn Bridge Park"}
    ]},
    {h:"Sunset and evening", items:[
     {n:"Walk the Brooklyn Bridge into Manhattan", t:"~16:00", d:"30–40 min", q:"Brooklyn Bridge pedestrian entrance, Washington Street, Brooklyn"},
-    {n:"Walk to Stone Street", t:"~16:50", d:"15–20 min from the Manhattan end of the bridge"},
-    {n:"Adrienne's Pizzabar", t:"17:30", tag:"booked", d:"54 Stone St. Thin, crispy grandma-style pizza.", q:"Adrienne's Pizzabar, 54 Stone Street, New York"},
-    {n:"NYC Ferry home from Pier 11", t:"19:16", d:"5 min walk from Stone St. Earlier: 18:14. Last boat: 20:18. About 50 min to Astoria, lit-up skyline on the way. Check times in the NYC Ferry app.", q:"Pier 11 Wall Street, New York"}
+    {n:"Home to Astoria", d:"No ferry today: the evening ferry is now on Sunday"}
+   ]},
+   {h:"Also done today", items:[
+    {n:"Apollo Bagels", tag:"done ✓", d:"41 John St"},
+    {n:"Century 21", tag:"done ✓", d:"22 Cortlandt St"},
+    {n:"9/11 Memorial", tag:"done ✓"}
    ]}
   ]},
- {id:"d8s", date:"2026-11-08", tab:"Sun 8", title:"Central Park, Brooklyn Museum and ferries at sunset", sub:"Park first, the Brooklyn Museum, then the Staten Island Ferry at sunset and the NYC Ferry home after dark",
-  tip:"Check the Brooklyn Museum's Sunday hours and book online (it usually opens at 11:00). On the Staten Island Ferry, stand on the right-hand side going out for the Statue of Liberty; you have to get off at St George and walk round to board the next boat back. NYC Ferry from Pier 11 to Astoria on Sundays: 17:33, 18:30 and 19:27 (the last one). Check times in the NYC Ferry app.",
+ {id:"d8s", date:"2026-11-08", tab:"Sun 8", title:"Central Park, the Guggenheim and ferries at sunset", sub:"A slow start, the park and the Guggenheim, then the Staten Island Ferry at sunset and the NYC Ferry home after dark",
+  tip:"Check the Guggenheim's Sunday hours and book online. On the Staten Island Ferry, stand on the right-hand side going out for the Statue of Liberty; you have to get off at St George and walk round to board the next boat back. NYC Ferry from Pier 11 to Astoria on Sundays: 17:33, 18:30 and 19:27 (the last one). Check times in the NYC Ferry app.",
   sections:[
-   {h:"Morning · Central Park", items:[
-    {n:"N/W to 5 Av/59 St", t:"~9:15"},
+   {h:"Late morning · Central Park", items:[
+    {n:"N/W to 5 Av/59 St", t:"~10:00", d:"A gentle start after the late night"},
     {n:"Central Park: the Mall", q:"The Mall, Central Park"},
     {n:"Bethesda Terrace", q:"Bethesda Terrace, Central Park"},
+    {n:"Belvedere Castle", d:"Small castle with a view over the park, 10 min north of Bethesda", q:"Belvedere Castle, Central Park"},
     {n:"Pass the Met", d:"Keep walking north through the park and come out at Fifth Ave and 82nd St, about 15 min. See the famous steps and Liu Wei's new facade sculptures from outside.", q:"The Metropolitan Museum of Art"}
    ]},
-   {h:"Late morning and early afternoon · Brooklyn", items:[
-    {n:"Subway to the Brooklyn Museum", t:"~11:00", d:"From the Met walk 10 min to 86 St (Lexington Ave), then the 4/5 to Franklin Av and a 10-min walk. About 50 min in all. Check Google Maps on the day.", q:"Eastern Parkway Brooklyn Museum station"},
-    {n:"Brooklyn Museum", t:"~12:00", d:"200 Eastern Pkwy. On now: Iris van Herpen: Sculpting the Senses (fashion, until 6 Dec), Art of Manga, and Cézanne to Modigliani. Allow about 2.5 hours; leave by about 14:45.", q:"Brooklyn Museum, 200 Eastern Parkway, Brooklyn"},
-    {n:"Brooklyn Botanic Garden", tag:"optional", d:"Right next door. Only a quick look if you have time; November is past its best.", q:"Brooklyn Botanic Garden"}
+   {h:"Early afternoon", items:[
+    {n:"Guggenheim Museum", t:"~12:15", tag:"book online", d:"1071 Fifth Ave at 89th St, 7 min north of the Met. Walk up Frank Lloyd Wright's spiral: Taryn Simon in the rotunda, plus Guggenheim Pop. Allow about 1.5 hours.", q:"Solomon R. Guggenheim Museum, New York"}
    ]},
    {h:"Late afternoon · ferries", items:[
-    {n:"Subway to Whitehall", d:"From Franklin Av (5 min walk) take the 4/5 to Bowling Green, about 25 min. Check Google Maps on the day.", q:"Staten Island Ferry Whitehall Terminal, New York"},
+    {n:"Subway to Whitehall", t:"~14:45", d:"4/5 from 86 St (Lexington Ave) to Bowling Green, about 25 min. If you're early, stroll through Battery Park by the water. Check Google Maps on the day.", q:"Staten Island Ferry Whitehall Terminal, New York"},
     {n:"Staten Island Ferry", t:"~15:45", tag:"free", d:"Out past the Statue of Liberty at sunset (around 16:40), back in the dusk with the skyline lighting up. About an hour there and back.", q:"Staten Island Ferry Whitehall Terminal, New York"},
-    {n:"Gap Factory, Broadway & Maiden Lane", t:"~17:15", tag:"🛍", d:"172 Broadway, about 15 min walk from the ferry terminal. Open until 19:00 on Sundays.", q:"Gap Factory, 172 Broadway, New York, NY 10038"},
+    {n:"Century 21", t:"~17:05", tag:"🛍", d:"22 Cortlandt St, about 15 min walk up Broadway from the ferry terminal. Open until 20:00 on Sundays.", q:"Century 21, 22 Cortlandt Street, New York"},
+    {n:"Gap Factory, Broadway & Maiden Lane", t:"~18:00", tag:"🛍", d:"172 Broadway, 5 min from Century 21. Closes at 19:00 on Sundays.", q:"Gap Factory, 172 Broadway, New York, NY 10038"},
     {n:"Early dinner near Stone St or the Seaport", tag:"optional", d:"Pier 11 is about 10 min from the Gap"},
-    {n:"NYC Ferry home from Pier 11", t:"18:30", d:"Up the East River under the bridges, lit-up skyline, about 50 min to Astoria. Last boat 19:27.", q:"Pier 11 Wall Street, New York"}
+    {n:"NYC Ferry home from Pier 11", t:"18:30 or 19:27", d:"Up the East River under the bridges, lit-up skyline, about 50 min to Astoria. 19:27 is the last boat.", q:"Pier 11 Wall Street, New York"}
    ]}
   ]},
- {id:"d9h", date:"2026-11-09", tab:"Mon 9", title:"High Line, West Village, SoHo and the Lower East Side", sub:"N/W to Queensboro Plaza, then the 7 to 34 St–Hudson Yards (about 30 min). Start around 9:30.",
-  tip:"Same walk east as before, SoHo → Nolita → Lower East Side → East Village, but with affordable vintage and basics instead of designer boutiques. Katz's is your dinner stop along the way.",
+ {id:"d9h", date:"2026-11-09", tab:"Mon 9", title:"High Line, West Village, SoHo and the Lower East Side", sub:"Meet your friend at 23 St at 9:00, then the High Line and west to east across downtown. Leave the hotel by about 8:20.",
+  tip:"A full day: if you're running late, skip DUO in the East Village and go from Katz's straight to Arthur's. Katz's is your dinner stop.",
   sections:[
-   {h:"Morning · the High Line", items:[
-    {n:"The High Line", t:"~9:30", tag:"free", d:"Elevated park on an old railway. Start at the north end by Hudson Yards and walk south, about 45–60 min.", q:"The High Line, Hudson Yards entrance, New York"},
-    {n:"Chelsea Market", tag:"optional", d:"75 9th Ave. Food hall in an old biscuit factory; leave the High Line at 16th St for a coffee.", q:"Chelsea Market, 75 9th Avenue, New York"},
+   {h:"Early morning · meet your friend", items:[
+    {n:"N/W to 23 St", t:"~8:20", d:"About 25–30 min from 30 Av"},
+    {n:"Meet your friend at 23 St station", t:"9:00–10:30", d:"Broadway and 23rd St, right by the Flatiron Building and Madison Square Park, so there's coffee and a view on the doorstep.", q:"23 St station N R W, Broadway, New York"}
+   ]},
+   {h:"Late morning · the High Line", items:[
+    {n:"Walk west to the High Line", t:"~10:30", d:"About 15–20 min along 23rd St to the stairs between 10th and 11th Ave", q:"High Line 23rd Street entrance, New York"},
+    {n:"The High Line", t:"~10:50", tag:"free", d:"Elevated park on an old railway. Walk south from 23rd St, about 30 min.", q:"The High Line, 23rd Street, New York"},
+    {n:"Chelsea Market", tag:"🛍 candy", d:"75 9th Ave. Food hall in an old biscuit factory; leave the High Line at 16th St. Economy Candy has a branch here, off the main concourse: classic American sweets like Reese's, Twizzlers and Hershey's.", q:"Chelsea Market, 75 9th Avenue, New York"},
+    {n:"Pearl River Mart, Chelsea Market", tag:"🛍", d:"Main concourse, open 10:00–19:30. Smaller branch of the SoHo flagship you'll pass this afternoon, so buy here or there.", q:"Pearl River Mart, Chelsea Market, 75 9th Avenue, New York"},
     {n:"Come down at Gansevoort St", d:"The south end, by the Whitney. The West Village starts here."}
    ]},
-   {h:"Late morning · West Village", items:[
+   {h:"Midday · West Village", items:[
     {n:"Carrie's stoop", d:"66 Perry St, about 10 min from the High Line. Photos from the pavement only.", q:"66 Perry Street, New York"},
     {n:"The Friends building", d:"Bedford St & Grove St, exterior only", q:"90 Bedford Street, New York"},
     {n:"Joe's Pizza", tag:"❗ don't miss", d:"7 Carmine St, the original. A classic NYC slice for lunch, 5 min from the Friends building.", q:"Joe's Pizza, 7 Carmine Street, New York"},
-    {n:"Washington Square Park", d:"Then walk south into SoHo, about 10 min", q:"Washington Square Park"}
+    {n:"Washington Square Park", q:"Washington Square Park"},
+    {n:"Levain Bakery NoHo", tag:"🍪 cookies", d:"340 Lafayette St, about 10 min east. The famous thick chocolate chip walnut cookie.", q:"Levain Bakery, 340 Lafayette Street, New York"}
    ]},
-   {h:"SoHo · Broadway", items:[
-    {n:"The ReShop", tag:"💲 affordable", d:"423 Broadway. Vintage and thrift: Levi's around $40, band tees around $17.", q:"The ReShop, 423 Broadway, New York"},
-    {n:"Calvin Klein flagship", tag:"🛍 underwear", d:"530 Broadway at Spring St. Opened Dec 2025, with denim and underwear at its centre.", q:"Calvin Klein, 530 Broadway, New York, NY 10012"}
+   {h:"SoHo", items:[
+    {n:"Walk down Greene Street", d:"SoHo's prettiest street: cobblestones and cast-iron buildings with fire escapes. Look for 72–76 Greene St, the \"King of Greene Street\". Mercer St, one block east, is a quieter cobbled alternative.", q:"72 Greene Street, New York"},
+    {n:"Calvin Klein flagship", tag:"🛍 underwear", d:"530 Broadway at Spring St, a block east of Greene. Opened Dec 2025, with denim and underwear at its centre.", q:"Calvin Klein, 530 Broadway, New York, NY 10012"},
+    {n:"Pearl River Mart", tag:"🛍", d:"452 Broadway at Grand St, 5 min south down Broadway. Big, colourful Asian-American department store: homeware, gifts, snacks, lanterns. Open 11:00–19:00. Also in Chelsea Market (this morning).", q:"Pearl River Mart, 452 Broadway, New York"},
+    {n:"Paloma Wool", tag:"🛍", d:"425 Broome St, 2 min from Pearl River. The Barcelona label's first permanent store.", q:"Paloma Wool, 425 Broome Street, New York"},
+    {n:"East along Broome St into Nolita", d:"Turn up Mott St, about 5 min", q:"Broome Street and Mott Street, New York"}
    ]},
    {h:"Nolita", items:[
     {n:"Wander Mott St and Elizabeth St", d:"The prettiest streets in Nolita for window-shopping, between Houston and Kenmare", q:"Mott Street and Prince Street, New York"},
     {n:"McNally Jackson", d:"Independent bookshop, good for a break", q:"McNally Jackson, 52 Prince Street, New York"}
    ]},
    {h:"Lower East Side and East Village", items:[
+    {n:"Economy Candy", tag:"🛍 candy", d:"108 Rivington St, the original 1937 shop. Backup if you skipped the one in Chelsea Market.", q:"Economy Candy, 108 Rivington Street, New York"},
+    {n:"Sandy Liang", tag:"🛍", d:"Orchard St. The New York designer's playful, girlish flagship, a few minutes from Economy Candy.", q:"Sandy Liang store, Orchard Street, New York"},
     {n:"Café Forgot", d:"29 Ludlow St. Mostly designer, so head for its own-label pieces (tanks around $50) and accessories ($20–35).", q:"Cafe Forgot, 29 Ludlow Street, New York"},
-    {n:"Katz's Delicatessen", tag:"❗ don't miss", d:"205 E Houston St. Early dinner: the pastrami sandwich is big enough to share.", q:"Katz's Delicatessen, 205 East Houston Street, New York"},
-    {n:"DUO NYC", d:"324 E 9th St, about 10 min north of Katz's. Sister-owned vintage and thrift shop.", q:"DUO NYC, 324 East 9th Street, New York"},
-    {n:"AuH2O Thriftique", tag:"💲 cheapest", d:"84 E 7th St, round the corner from DUO. Clothing mostly $10–25, jewellery from $3. Small shop, so check it's open.", q:"AuH2O Thriftique, 84 East 7th Street, New York"}
+    {n:"Katz's Delicatessen", tag:"❗ don't miss", d:"205 E Houston St. Early dinner: the pastrami sandwich is big enough to share.", q:"Katz's Delicatessen, 205 East Houston Street, New York"}
    ]},
-   {h:"Evening · jazz in the West Village", items:[
-    {n:"L'Industrie Pizzeria", tag:"optional", d:"104 Christopher St, 3 min from Arthur's. A late slice (margherita or burrata) and gelato if you're hungry again.", q:"L'Industrie Pizzeria, 104 Christopher Street, New York"},
+   {h:"Early evening · East Village walk", items:[
+    {n:"Up Avenue A to Tompkins Square Park", d:"The neighbourhood's local park, good for people- and dog-watching", q:"Tompkins Square Park, New York"},
+    {n:"St Marks Place", d:"E 8th St between Ave A and 3rd Ave. The old punk heart of the city: tattoo parlours, cheap eats, quirky shops.", q:"St Marks Place, New York"},
+    {n:"DUO NYC", d:"324 E 9th St. Sister-owned vintage and thrift shop. East 9th St is lined with small independent shops.", q:"DUO NYC, 324 East 9th Street, New York"},
+    {n:"Little Tokyo", tag:"optional", d:"E 9th St around 2nd and 3rd Ave: ramen and Japanese cafés", q:"East 9th Street and 2nd Avenue, New York"}
+   ]},
+   {h:"Evening · jazz in the West Village (about 15 min from E 9th St)", items:[
     {n:"Arthur's Tavern", tag:"⭐ must-go", d:"57 Grove St, about 20 min from the East Village by subway or Uber. Live jazz every night, no cover. Mondays: the Grove Street Stompers.", q:"Arthur's Tavern, 57 Grove Street, New York"}
    ]}
   ]},
- {id:"d10b", date:"2026-11-10", tab:"Tue 10", title:"Flatiron, Midtown classics and MoMA", sub:"Leave the hotel by about 9:00. N/W to 23 St, then walk up Fifth Avenue.",
+ {id:"d10b", date:"2026-11-10", tab:"Tue 10", title:"Midtown classics and MoMA", sub:"A later start: leave the hotel by about 9:30. N/W to Times Sq–42 St, then a 5-min walk to the library.",
   tip:"Library reading room: visiting hour 10:00–11:00 (last entry 10:50), or the free 15-min tour at 11:20. Sign up in the McGraw Rotunda, 3rd floor, from 10:50. First 25 people only.",
   sections:[
    {h:"Morning", items:[
-    {n:"Flatiron Building", t:"~9:30", d:"Right outside 23 St station. Best photo from the island at Broadway and Fifth Ave; Madison Square Park is across the road.", q:"Flatiron Building, 175 Fifth Avenue, New York"},
-    {n:"Walk up Fifth Avenue to the library", d:"About 25 min. You pass the Empire State Building at 34th St on the way.", q:"Empire State Building"},
-    {n:"New York Public Library", t:"10:15", d:"Rose Main Reading Room. Allow about an hour.", q:"New York Public Library Stephen A. Schwarzman Building"},
+    {n:"New York Public Library", t:"10:00", d:"Rose Main Reading Room. Allow about an hour.", q:"New York Public Library Stephen A. Schwarzman Building"},
     {n:"Bryant Park Winter Village", d:"Free ice rink and 180+ holiday stalls behind the library", q:"Bryant Park, New York"}
    ]},
    {h:"Afternoon", items:[
@@ -202,10 +215,11 @@ const DAYS = [
     {n:"Sephora Fifth Avenue", tag:"🛍 beauty", d:"580 Fifth Ave at 47th St, Sephora's big NYC flagship. On your way up Fifth.", q:"Sephora, 580 Fifth Avenue, New York, NY 10036"},
     {n:"Fifth Avenue to St Patrick's Cathedral", q:"St. Patrick's Cathedral, New York"},
     {n:"MoMA", tag:"book online", d:"11 W 53rd St. About 2 hours: focus on the 5th floor (Van Gogh, Monet, Picasso, Warhol).", q:"Museum of Modern Art, 11 West 53rd Street, New York"},
-    {n:"Rockefeller Center", d:"2 min from MoMA. The Christmas tree will be up, though not lit yet.", q:"Rockefeller Center"}
+    {n:"Rockefeller Center", d:"2 min from MoMA. The Christmas tree will be up, though not lit yet.", q:"Rockefeller Center"},
+    {n:"Pet Market NYC, Columbus Circle", tag:"🐶 taxi dog toy", d:"338 W 57th St, about 15 min walk from Rockefeller Center. Sells the FabDog NYC taxi dog toy (about $23). Open until 19:00. Call (212) 956-3700 first to check it's in stock.", q:"Pet Market NYC, 338 West 57th Street, New York"}
    ]},
    {h:"Evening", items:[
-    {n:"Yankees Clubhouse", tag:"🛍 cap", d:"Most iconic: a Yankees cap. 745 Seventh Ave, on the way to Times Square.", q:"Yankees Clubhouse, 745 7th Avenue, New York, NY 10019"},
+    {n:"Yankees Clubhouse", tag:"🛍 cap & scarf", d:"Most iconic: a Yankees cap, and a Yankees scarf. 745 Seventh Ave, on the way to Times Square.", q:"Yankees Clubhouse, 745 7th Avenue, New York, NY 10019"},
     {n:"Los Tacos No. 1", tag:"⭐ must-go", d:"229 W 43rd St, off Times Square. Quick dinner, standing only.", q:"Los Tacos No. 1, 229 West 43rd Street, New York"},
     {n:"Central Perk coffeehouse", d:"Orange sofa, walk-in", q:"Central Perk Coffeehouse, 20 Times Square, New York"},
     {n:"Times Square after dark", q:"Times Square"},
@@ -242,17 +256,20 @@ const INFO = `
 <div class="card"><h4>🍴 Food priorities</h4><ul>
  <li><b>Don't miss:</b> Katz's Delicatessen (Mon dinner, LES) · Joe's Pizza (Mon lunch, West Village)</li>
  <li><b>Definitely go:</b> Arthur's Tavern (Mon evening, jazz) · Los Tacos No. 1 (Tue dinner, Times Square)</li>
- <li><b>Great food stops:</b> L'Industrie (Mon evening, optional, by Arthur's) · Apollo Bagels (done ✓)</li>
+ <li><b>Great food stops:</b> Apollo Bagels (done ✓)</li>
  <li><b>NYC essential:</b> a slice of New York cheesecake. Junior's on Times Square is the classic (Tue evening).</li></ul></div>
 <div class="card"><h4>🛍 Shopping list</h4><ul>
- <li><b>Most iconic:</b> Yankees cap · Yankees Clubhouse, 745 Seventh Ave (Tue evening)</li>
- <li><b>Best fashion find:</b> vintage NYC sweatshirt or T-shirt · L Train Vintage or Buffalo Exchange in Williamsburg (Sat), or DUO NYC (Mon)</li>
+ <li><b>Most iconic:</b> Yankees cap and scarf · Yankees Clubhouse, 745 Seventh Ave (Tue evening)</li>
+ <li><b>Levain cookies:</b> Levain Bakery NoHo, 340 Lafayette St (Mon, after Washington Square Park)</li>
+ <li><b>Yellow taxi dog toy:</b> Pet Market NYC, 338 W 57th St (Tue afternoon). FabDog NYC taxi, about $23. Call ahead to check stock.</li>
+ <li><b>American candy:</b> Economy Candy, Chelsea Market (Mon morning) or 108 Rivington St (Mon afternoon). Any CVS or Duane Reade also has the classics cheaply.</li>
+ <li><b>Best fashion find:</b> vintage NYC sweatshirt or T-shirt · DUO NYC (Mon), or any vintage shop you pass</li>
  <li><b>Sephora:</b> Fifth Avenue flagship, 580 Fifth Ave (Tue). Times Square also has a very large one at 1535 Broadway if you're there in the evening.</li>
  <li><b>Gap:</b> Gap Factory, 172 Broadway at Maiden Lane (Sun, after the Staten Island Ferry; open until 19:00). Backup: Gap Times Square, 1514 Broadway (Tue evening, open late).</li>
  <li><b>Calvin Klein underwear:</b> CK flagship, 530 Broadway, SoHo (Mon).</li></ul></div>
 <div class="card"><h4>🎟 What to book</h4><ul>
+ <li><b>Guggenheim</b> (Sun): online, and check Sunday hours</li>
  <li><b>MoMA</b> (Tue): online a day or two before</li>
- <li><b>Brooklyn Museum</b> (Sun): online, and check the Sunday opening time</li>
  <li>No booking needed: library, Grand Central, parks, 9/11 plaza, ferries (including Staten Island), shops</li></ul></div>
 <div class="card"><h4>✈️ JFK transfers</h4>
  <p><b>Arriving:</b> official taxi rank, metered to Queens (about $50–70 with tip). Or AirTrain to Jamaica plus subway ($11.75, 75–90 min, stairs).</p>
